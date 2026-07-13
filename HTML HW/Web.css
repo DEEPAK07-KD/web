@@ -1,0 +1,22 @@
+body{
+   background: #EEAECA;
+   background: linear-gradient(180deg, rgba(238, 174, 202, 1) 38%, rgba(148, 187, 233, 1) 100%);
+    background-attachment: fixed;
+}
+.click{
+    background-color: rgba(255, 255, 255, 0.267);
+    margin: 25px;
+    padding: 150px;
+    border: 2px solid #EEAECA;
+    
+}
+
+.btn{
+    background-color: gray;
+    color: white;
+}
+.btn:hover{
+    transition: all 0.3s ease-in-out;
+    background-color: lightgreen;
+    transform: scale(1.1);
+}
